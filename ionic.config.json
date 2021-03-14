@@ -1,0 +1,7 @@
+{
+  "name": "todosApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
