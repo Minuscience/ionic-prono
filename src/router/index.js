@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import TodoPage from '../pages/TodoPage.vue';
+import PronoPage from "@/pages/PronoPage";
 
 const routes = [
   {
@@ -30,6 +31,22 @@ const routes = [
       {
         path: "home",
         component: () => import('../pages/HomePage.vue')
+      },
+      {
+        path: "league/",
+        component: () => import('../pages/LeaguePage.vue')
+      },
+      {
+        path: "pronos",
+        component: PronoPage
+      },
+      {
+        path: 'pronos/add',
+        component: () => import('../pages/AddPronoPage.vue')
+      },
+      {
+        path: 'pronos/:id',
+        component: () => import('../pages/PronoDetail.vue')
       },
       {
         path: "todos",

@@ -2,12 +2,12 @@
 <ion-page>
         <ion-header>
             <ion-toolbar>
-                <ion-title>Home Page</ion-title>
+                <ion-title>Ligues</ion-title>
             </ion-toolbar>
         </ion-header>
 
         <ion-content>
-            <h2>Ceci est la page d'accueil.</h2>
+            <h2>Ceci est la page d'accueil des leagues.</h2>
         </ion-content>
     </ion-page>
 </template>
