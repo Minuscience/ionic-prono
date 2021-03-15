@@ -13,7 +13,7 @@ export default {
     },
     methods: {
         saveProno(pronoData) {
-            this.$store.dispatch("addProno", pronoData);
+            this.storeProno.dispatch("addProno", pronoData);
             this.$router.replace("/tabs/pronos");
         }
     }

@@ -22,7 +22,7 @@
           <ion-label>Account</ion-label>
         </ion-tab-button>
 
-        <ion-tab-button tab="prono" href="/tabs/prono">
+        <ion-tab-button tab="pronos" >
           <ion-icon name="document"></ion-icon>
           <ion-label>Prono</ion-label>
         </ion-tab-button>
